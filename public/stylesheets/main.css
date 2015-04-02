@@ -1,31 +1,18 @@
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 1.8vw;
   line-height: 1.428571429;
   color: #333;
+  word-wrap: break-word;
 }
 
 #logo {
   text-align: center;
-}
-
-#content {
-  padding: 1em;
-}
-
-.box {
-  border: 1px solid #999;
-  background: #FCFCFC;
-  padding: 1em;
-  margin-bottom: 0.5em;
+  background: linear-gradient(green, yellow);
 }
 
 .welcome {
   text-align: center;
-}
-
-h3 {
-  font-size: 1.5em;
 }
 
 .error {
@@ -37,3 +24,82 @@ h3 {
 }
 
 /* TODO - Add your own styles here */
+
+#content {
+  margin: 0.5%;
+}
+#names {
+  float: left;
+  width: 55%;
+  clear: both;
+  padding-left: 5%;
+}
+
+h2 {
+  font-size: 7vw;
+  font-weight: bold;
+  color: green;
+  line-height: 5%;
+  margin-top: 23%;
+}
+
+h1 {
+  font-size: 8vw;
+  font-weight: bold;
+  color: green;  
+  margin-top: 10px;
+}
+
+
+
+h3 {
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #555;
+  line-height: 0.5%;
+  margin-top: 3%;
+}
+
+#photo img {
+  float: right;
+  width: 28%;
+  border-radius: 20%;
+  margin: 5%;
+}
+
+.box {
+  border: 1px solid #999;
+  background: #FCFCFC;
+  padding: 0.5%;
+  margin: 0.5%;
+  clear: right;
+  width: 31%;
+  float: left;
+  min-height: 4.5em;
+}
+
+h4{
+  font-weight: bold;
+}
+
+.wider {
+  width: 98%;
+}
+
+ul {
+  list-style: inherit;
+  display:inline;  
+  margin-left: 15px;
+}
+
+li {  
+  float:right;
+  width: 48%;
+}
+
+h5{
+  font-weight: bold;
+  color: red;
+  font-size: 1.4em;
+}
+
